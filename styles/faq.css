@@ -1,0 +1,41 @@
+/* Styles for the FAQ page */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq h2 {
+    margin-bottom: 1rem;
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+}
+
+.faq-item h3 {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #007bff;
+}
+
+.faq-item p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.faq-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
+}

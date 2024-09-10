@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summarize Text</title>
+    <link rel="stylesheet" href="summarize.css">
+</head>
+<body>
+    <header>
+        <h1>Text Summarizer Application</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="summarize.html">Summarize Text</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="terms-of-service.html">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="summarizer">
+            <h2>Summarize Your Text</h2>
+            <form id="summarize-form">
+                <label for="text-input">Enter your text here:</label>
+                <textarea id="text-input" rows="10" placeholder="Paste or type your text here..."></textarea>
+                <button type="submit" class="btn">Summarize</button>
+            </form>
+            
+            <section id="result" class="result">
+                <!-- Summarized text will be displayed here -->
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Text Summarizer Application. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+/* Styles for the 404 page */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.error-404 {
+    text-align: center;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-404 h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #dc3545; /* Red color for error */
+}
+
+.error-404 p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.error-404 a.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.error-404 a.btn:hover {
+    background-color: #0056b3;
+}
